@@ -2,7 +2,7 @@
 section.hero h1{
     color: rgba(240, 248, 255, 0.5);
     font-size: 50px;
-    margin-left: 275px;
+    text-align: center;
 }
 
 body, h1, h2, h3, h4, p, ul, ol, li {
