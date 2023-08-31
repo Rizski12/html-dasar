@@ -122,3 +122,79 @@ footer {
     background-color: #1685c5;
     color: white;
 }
+
+/*login*/
+article.login {
+    margin: 0 auto;
+    padding: auto;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #a6a4a4c7;
+  }
+.logo-arkatama{
+    width: 150px; 
+    float:left;
+    box-shadow: 0px 0px 10px #282727c7;
+    border-radius: 5px;
+}
+
+/* Style form */
+.text1{
+    background-color: #3d94f7;
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.form{
+    display: flex;
+    padding: 10px 10px;
+}
+ form input {
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #104de8;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #6598f7f7;
+  }
+
+  form label{
+    text-align: left;
+    color: black;
+  }
+  
+  form button {
+    width: 220px;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #282727c7;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #2cbef7;
+    color: white;
+  }
+
+  /*video*/
+  video {
+    width: 60%;
+    max-height: 200px;
+    margin: 10px 0 0 40px;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #282727c7;
+  }
+  
+  
+  
+  
+  
+  
