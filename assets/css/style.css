@@ -121,13 +121,21 @@ footer {
 }
 
 /*login*/
+.login-container {
+  background-image: url(../Img/login1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 article.login {
+    background-image: linear-gradient(rgba(0,0,5, 0.5), rgba(0,0,5, 0.5)), url('../Img/login1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
     padding: auto;
     margin-top: 25px;
     background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #a6a4a4c7;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #f9f9f9c7;
   }
 .logo-arkatama{
     width: 150px; 
@@ -161,7 +169,7 @@ article.login {
 
   form label{
     text-align: left;
-    color: black;
+    color: #ffffff;
   }
   
   form button {
@@ -171,7 +179,7 @@ article.login {
     color: white;
     border: none;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px #282727c7;
+    box-shadow: 0px 0px 10px #f5f4f4c7;
     cursor: pointer;
   }
 
@@ -184,10 +192,10 @@ article.login {
   video {
     width: 60%;
     max-height: 200px;
-    margin: 10px 0 0 40px;
+    margin: 10px 0 0 15px;
     border-width: 1px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px #282727c7;
+    box-shadow: 0px 0px 10px #ffffffc7;
   }
   
   
