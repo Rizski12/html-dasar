@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, p, ul, ol, li {
 
 
 .bg {
-    background-image: url("../Img/html.png");
+    background-image: url("../Images/html.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,12 +123,12 @@ footer {
 
 /*login*/
 .login-container {
-  background-image: url(../Img/login1.jpg);
+  background-image: url(../Images/login1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 article.login {
-    background-image: linear-gradient(rgba(0,0,5, 0.5), rgba(0,0,5, 0.5)), url('../Img/login1.jpg');
+    background-image: linear-gradient(rgba(0,0,5, 0.5), rgba(0,0,5, 0.5)), url('../Images/login1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -211,6 +211,8 @@ article.login {
 }
 
 .list{
+    margin-top: 0;
+    margin-left: 0;
     color: black;
     text-align: center;
     animation-name: animasi1;
@@ -224,7 +226,7 @@ article.login {
  }
  
  .produk {
-     margin-top: 40px;
+     margin-top: 20px;
      margin-left: 15px;
      margin-right: 15px;
      padding: 1rem;
@@ -248,7 +250,7 @@ article.login {
 
  .badge {
     position: absolute;
-    left: 0;
+    left: 2px;
     top: 5px;
     text-transform: uppercase;
     font-size: 13px;
@@ -278,7 +280,7 @@ article.login {
  .img-card {
      height: 220px;
      overflow: hidden;
-     box-shadow: 1px 1px 5px rgb(231, 227, 227);
+     box-shadow: 1px 1px 5px rgb(170, 171, 222);
  }
  
  .img-produk {
@@ -323,11 +325,12 @@ a{
      padding-bottom: 10px;
      margin-top: 10px;
      border-radius: 8px;
+     align-items: center;
  }
  
  .btn-block:hover {
     width: 100%;
-     background-color: rgb(200, 228, 255);
+     background-color: rgb(2, 2, 2);
      border-style: solid;
      padding-top: 5px;
      padding-bottom: 10px;
@@ -344,6 +347,167 @@ a{
      text-decoration: none;
  }
   
-  
-  
-  
+/*js dasar*/
+.js-container {
+    width: 80vh;
+    height: 5%;
+    padding: 5vh;
+    box-shadow: 1px 1px 5px rgb(187, 188, 188);
+    border-radius: 5px;margin: 30vh 58vh 33vh 58vh;
+}
+
+.js-dasar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: #6ba3de;
+    text-align: center;
+}
+
+/*navigation bar landing page*/
+.logo-nav {
+    width: 5vh;
+    margin-left: 2rem;
+    margin-right: 45rem;
+}
+.nav {
+    background-color: rgb(106, 148, 182);
+    display: flex;
+    justify-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    list-style: none;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+/*landing page*/
+.section-carousel {
+    width: 100%;
+    height: 102vh;
+    background: rgb(106, 148, 182);
+}
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    float: left;
+    width: 100%;
+    display: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+}
+
+.btn-carousel{
+    margin-left: 82vh;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #cfd4ea;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 12px 0px 12px 0px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/*kategori*/
+.section-kategori {
+    width: 100%;
+    height: 100vh;
+    background: rgb(86, 145, 138);
+    align-items: center;
+    justify-content: center;
+}
+.flex-kategori {
+    margin-left: 0;
+    margin-top: 25px;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    display: flex;
+ }
+.card-kategori {
+    width: 27vh;
+    height: 27vh;
+    box-shadow: 1px 1px 7px rgb(157, 159, 159);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+.card-kategori:hover {
+    box-shadow: 3px 3px 5px rgb(213, 230, 248);
+    transition: 0.3s;
+}
+
+.img-kategori {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.kategori {
+    margin-left: 0;
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+
+.section-produk {
+    width: 100%;
+    height: 275vh;
+    background: #497881;
+    padding-top: 2px;
+}
+
+.produk-landing-page {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 0;
+    padding: 1rem;
+}
+ 
+ .card-page {
+     width: 250px;
+     padding: 10px;
+     position: relative;
+     box-shadow: 1px 1px 5px rgb(30, 32, 32);
+     border-radius: 5px;
+     margin: 10px 25px 10px 5px;
+     background: white;
+ }
+
+ .card-page:hover {
+     box-shadow: 3px 3px 10px rgb(83, 86, 100);
+     transition: 0.3s;
+ }
+
+ .footer-page {
+    margin-top: 0;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #5381b1;
+    color: white;
+ }
+
