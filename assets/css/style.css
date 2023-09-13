@@ -319,33 +319,126 @@ a{
 
  .btn-block {
      width: 100%;
-     background-color: rgb(48, 172, 254);
      text-align: center;
+     display: flex;
      padding-top: 5px;
-     padding-bottom: 10px;
+     padding-bottom: 3px;
      margin-top: 10px;
-     border-radius: 8px;
-     align-items: center;
- }
- 
- .btn-block:hover {
-    width: 100%;
-     background-color: rgb(2, 2, 2);
-     border-style: solid;
-     padding-top: 5px;
-     padding-bottom: 10px;
-     border-color: rgb(48, 172, 254);
  }
  
  .btn-order {
-     color: white;
-     text-decoration: none;
+    margin: 3px;
+    padding: 12px 70px;
+    background-color: #208aec;
+    color: rgb(235, 231, 231);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
  }
  
  .btn-order:hover {
-     color: rgb(48, 172, 254);
+     background-color: rgb(88, 133, 164);
      text-decoration: none;
  }
+
+ i {
+    margin: 3px;
+    padding: 10px 20px;
+    background-color: hsl(229, 57%, 84%);
+    color: rgb(0, 0, 0);
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+ i:hover {
+    background-color: #2881e8;
+    color: white;
+ }
+
+/*toko*/
+.container-toko {
+    width: 100%;
+}
+.Toko {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    padding-top: 15px;
+    align-content: center;
+  }
+.Toko h1{
+    text-align: center;
+    color: #2cbef7;
+    margin-bottom: 40px;
+}
+  
+  .Toko .box-Toko {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin: 20px;
+  }
+  
+  .Toko .box-Toko .box {
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+  
+  .Toko .box-Toko .box:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+  
+  .Toko .box-Toko .box img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .Toko .box-Toko .box p {
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  
+  .Toko .box-Toko .box button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #0050b3;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Toko .box-Toko .box button:hover {
+    background-color: #053e83;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+  
   
 /*js dasar*/
 .js-container {
@@ -367,10 +460,10 @@ a{
 .logo-nav {
     width: 5vh;
     margin-left: 2rem;
-    margin-right: 45rem;
+    margin-right: 38rem;
 }
 .nav {
-    background-color: rgb(106, 148, 182);
+    background-color: rgb(84, 117, 143);
     display: flex;
     justify-items: center;
     padding: 1rem 1.5rem;
@@ -394,7 +487,7 @@ a{
 .section-carousel {
     width: 100%;
     height: 102vh;
-    background: rgb(106, 148, 182);
+    background: rgb(56, 79, 97);
 }
 .carousel-container {
     width: 100%;
@@ -414,27 +507,21 @@ a{
 }
 
 .btn-carousel{
-    margin-left: 82vh;
+    margin-left: 92vh;
 }
-button {
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #cfd4ea;
-    color: rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-    border-radius: 12px 0px 12px 0px;
+.btn-carousel button{
+    background-color: #333;
 }
-
-button:hover {
-    background-color: #555;
+.btn-carousel i{
+    color: white;
+    background-color: #333;
+    font-size: 20px;
 }
-
 /*kategori*/
 .section-kategori {
     width: 100%;
     height: 100vh;
-    background: rgb(86, 145, 138);
+    background: rgb(44, 75, 78);
     align-items: center;
     justify-content: center;
 }
@@ -476,8 +563,8 @@ button:hover {
 
 .section-produk {
     width: 100%;
-    height: 275vh;
-    background: #497881;
+    height: 280vh;
+    background: #28454a;
     padding-top: 2px;
 }
 
