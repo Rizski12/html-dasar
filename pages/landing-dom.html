@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/Images/r.png">
+    <script src="https://kit.fontawesome.com/0f7b869bd5.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+<body id="about">
+     <!--Navigation-->
+     <ul class="nav">
+        <img class="logo-nav" src="../assets/Images/arkatama.jpg" alt="">
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#kategori" class="nav-link" id="nav-link">Kategori</a>
+        </li>
+        <li class="nav-item">
+          <a href="#produk" class="nav-link" id="nav-link">Produk</a
+          >
+        </li>
+        <li class="nav-item">
+            <a href="#toko" class="nav-link" id="nav-link">Toko</a
+            >
+          </li>
+        <li class="nav-item">
+            <a href="../index.html" class="nav-link" id="nav-link">Back</a>
+        </li>
+    </ul>
+     <!--Navigation-->
+     
+    <!--carousel-->
+    <section class="section-carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="../assets/Images/slide4.png" alt="Gambar 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="../assets/Images/slide1.jpg" alt="Gambar 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="../assets/Images/slide2.jpg" alt="Gambar 2">
+        </div>
+        <div class="carousel-slide">
+            <img src="../assets/Images/slide3.jpg" alt="Gambar 3">
+        </div>
+        <div class="btn-carousel">
+            <button id="prevBtn" onclick="prevSlide()"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="nextBtn" onclick="nextSlide()"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+        
+    </section>
+    <!--Kategori produk-->
+    <section class="section-kategori" id="kategori">
+        <div class="kategori-produk">
+            <h1 class="kategori">Kategori Produk</h1>
+            <div class="flex-kategori">
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/sepatu.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/gitar.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/taswanita.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/elektronik.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/helm.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/hp.jpg" alt="" class="img-kategori">
+                </div>
+            </div>
+
+            <div class="flex-kategori">
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/jam.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/laptop.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/pakaianpria.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/bola.jpg" alt="" class="img-kategori">
+                </div>
+
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/taswanita.jpg" alt="" class="img-kategori">
+                </div>
+                
+                <div class="card-kategori">
+                    <img src="../assets/Images/kategori/tas.jpg" alt="" class="img-kategori">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--produk-->
+    <section class="section-produk" id="produk">
+    <div class="produk-landing-page">
+        <h1 class="list">List Produk</h1>
+    <div class="flex">
+        <div class="card-page">
+            <div class="badge">Sold Out!</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/keyboard.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">Keyboard Gaming</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 230.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">Hot</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/tv.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">TV LED Digital</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 5.000.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">Hot</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/vivo.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">VIVO V15</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 2.900.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">For Sale!</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/oppoa54.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">OPPO A54</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 3.000.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="flex">
+        <div class="card-page">
+            <div class="badge">Hot</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/iphone14promax.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">IPHONE 14 PROMAX</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 21.000.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">For Sale!</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/camera.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">Cannon</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 2.000.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">Hot</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/asusku.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">ASUS A416jp</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 10.000.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">Sold Out!</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/asus.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">ASUS TUF GAMING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 14.000.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="card-page">
+            <div class="badge">Hot</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/jam.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">Jam Tangan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 100.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">Sold Out!</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/eiger.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">Tas Eiger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 300.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">Hot</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/helmnjs.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">Helm NJS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 500.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-page">
+            <div class="badge">For Sale!</div>
+            <div class="img-card">
+                <img src="../assets/Images/produk/helmltd.jpg" alt="" class="img-produk">
+            </div>
+            <div class="content-text">
+                <h3 class="nama-produk">Helm LTD</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4 class="harga">Rp. 400.000</h4>
+                <a href=""><small class="user">@OnlineShop</small></a>
+                <a href=""><p class="selengkapnya">selengkapnya..</p></a>
+                <div class="btn-block">
+                    <button href="" class="btn-order">Order</button>
+                    <i id="keranjang" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+     <!-- Toko -->
+     <div class="Toko" id="toko">
+        <h1>Toko</h1>
+        <div class="container-toko">
+          <div class="box-Toko">
+            <div class="box">
+              <img src="../assets/Images/putra.jpg" alt="" />
+              <h3>Toko 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, modi.</p>
+              <button>Detail</button>
+            </div>
+            <div class="box">
+              <img src="../assets/Images/tokoasus.jpg" alt="" />
+              <h3>Toko 2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, modi.</p>
+              <button>Detail</button>
+            </div>
+            <div class="box">
+              <img src="../assets/Images/tokohelm.jpg" alt="" />
+              <h3>Toko 3</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, modi.</p>
+              <button>Detail</button>
+            </div>
+            <div class="box">
+              <img src="../assets/Images/tokojam.png" alt="" />
+              <h3>Toko 4</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, modi.</p>
+              <button>Detail</button>
+            </div>
+            <div class="box">
+              <img src="../assets/Images/ibox.png" alt="" />
+              <h3>Toko 5</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, modi.</p>
+              <button>Detail</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Toko -->
+
+<!--footer-->
+    <footer class="footer-page">
+        <p>&copy; 2023 Rizkidian.Copyright.</p>
+    </footer>
+    <!--js-->
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
