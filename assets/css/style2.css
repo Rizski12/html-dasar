@@ -1,0 +1,182 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.topnav {
+    background-color: #1685c5;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  .topnav a.active {
+    background-color: #0d5687;
+    color: white;
+  }
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1685c5;
+    color: white;
+}
+
+/*card*/
+@keyframes animasi2{
+    form {background: red;}
+    to {background: #007bff;}
+}
+.card-page {
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 1px 1px 5px rgb(30, 32, 32);
+    border-radius: 15px;
+    margin: 15px 18px 15px 18px;
+    background: white;
+}
+
+.card-page:hover {
+    box-shadow: 3px 3px 10px rgb(83, 86, 100);
+    transition: 0.3s;
+}
+
+.badge {
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 8px 0 8px 0;
+    animation-name: animasi2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+ .badge:hover{
+    background-color: rgb(247, 95, 95);
+    color: white;
+ }
+
+ .nama-produk {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 2vh;
+ }
+
+
+ 
+img {
+     width: 100%;
+     height: 40vh;
+     overflow: hidden;
+     box-shadow: 1px 1px 5px rgb(203, 203, 228);
+     border-radius: 20px;
+ }
+
+.deskripsi {
+    margin-top: 2vh;
+}
+
+.harga {
+     margin-top: 5px;
+     color: black;
+     text-align: left;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: medium;
+ }
+ 
+ .user{
+    margin-top: 2vh;
+     color: gray;
+ }
+
+ .user:hover {
+    color: red;
+ }
+ 
+.selengkapnya {
+    text-decoration: none;
+    margin-top: 4vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+    color: #007bff;
+    margin-bottom: 4vh;
+    text-align: end;
+}
+
+.selengkapnya:hover {
+    color: rgb(239, 14, 14);
+}
+
+ 
+ .btn-order {
+    padding: 12px 75px;
+    background-color: #208aec;
+    color: rgb(235, 231, 231);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ 
+ .btn-order:hover {
+     background-color: rgb(88, 133, 164);
+     text-decoration: none;
+ }
+
+ i {
+    margin-left: 1vh;
+    padding: 12px 20px;
+    background-color: hsl(229, 57%, 84%);
+    color: rgb(0, 0, 0);
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+
+ i:hover {
+    background-color: #2881e8;
+    color: white;
+ }
+
+
+ #produk-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+ }
+
+ .array-container {
+    max-width: 1000vh;
+    margin: 1vh;
+    background-color: hsl(230, 11%, 56%);
+    box-shadow: 1px 1px 5px rgb(203, 203, 228);
+    border-radius: 5px;
+ }
+
+ h2 {
+    text-align: center;
+    padding: 2vh;
+ }
