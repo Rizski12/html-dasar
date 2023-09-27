@@ -5,8 +5,9 @@ body, h1, h2, h3, h4, p, ul, ol, li {
 }
 /* navbar */
 .topnav {
-    background-color: #1685c5;
+    background-color: #1995AD;
     overflow: hidden;
+    width: 100%;
   }
   
   .topnav a {
@@ -25,9 +26,9 @@ body, h1, h2, h3, h4, p, ul, ol, li {
   }
   
   .topnav a.active {
-    background-color: #0d5687;
+    background-color: #2fc7e9;
     color: white;
-  }
+  }  
 
 
 footer {

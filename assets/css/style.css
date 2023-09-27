@@ -88,8 +88,9 @@ th {
 
 /* navbar */
 .topnav {
-    background-color: #1685c5;
+    background-color: #1995AD;
     overflow: hidden;
+    width: 100%;
   }
   
   .topnav a {
@@ -108,9 +109,10 @@ th {
   }
   
   .topnav a.active {
-    background-color: #0d5687;
+    background-color: #2fc7e9;
     color: white;
   }
+  
 
 
 footer {

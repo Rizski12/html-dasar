@@ -7,6 +7,7 @@ body {
 .topnav {
     background-color: #1995AD;
     overflow: hidden;
+    width: 100%;
   }
   
   .topnav a {
@@ -28,6 +29,7 @@ body {
     background-color: #2fc7e9;
     color: white;
   }
+  
 
 
 footer {
